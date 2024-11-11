@@ -20,9 +20,11 @@ class Calculator:
         santykis = skaicius1 / skaicius2
         return f"{skaicius1} / {skaicius2} = {santykis}"
 
-
-
-
+    def multiply(self):
+        skaicius1 = float(input("Enter your number here: "))
+        skaicius2 = float(input("Enter your number here: "))
+        suma = skaicius1 * skaicius2
+        return f"{skaicius1} * {skaicius2} = {suma}"
 
 calc = Calculator(0)
 
