@@ -14,6 +14,12 @@ class Calculator:
         suma = skaicius1 - skaicius2
         return f"{skaicius1} - {skaicius2} = {suma}"
 
+    def divide(self):
+        skaicius1 = float(input("Enter your number here: "))
+        skaicius2 = float(input("Enter your number here: "))
+        santykis = skaicius1 / skaicius2
+        return f"{skaicius1} / {skaicius2} = {santykis}"
+
 
 
 
